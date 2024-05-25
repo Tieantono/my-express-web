@@ -22,7 +22,7 @@ export async function createJwt(user: UserData) {
     .setIssuedAt()
     .setIssuer(process.env.JWT_ISSUER as string)
     .setAudience(process.env.JWT_AUDIENCE as string)
-    .setExpirationTime('1m')
+    .setExpirationTime(process.env.JWT_EXPIRATION_TIME as string)
     .sign(secretKey);
 
     return token;
