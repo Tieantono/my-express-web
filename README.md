@@ -1,12 +1,7 @@
 # Express.js Web App
 
 ## About
-An Express.js Web App based on the following request:
-
-> This assessment item involves creating a mobile application using React Native, a server using node.js and Express, and writing a short essay in response to one of the provided topics.
-This is an assignment for the purposes of an extension.
-All submissions are made via the Assignments link in the menu on this Canvas site.
-The use generative AI tools such as ChatGPT, including programming/coding assistants such as CoPilot is allowed for the indicated tasks in this assessment item, and otherwise prohibited.
+A simple Express.js application with MySQL database.
 
 ## Requirements
 * Node.js (recommended version: 20)
